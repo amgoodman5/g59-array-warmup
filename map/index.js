@@ -20,9 +20,9 @@ function onlyVowels(array) {
 }
 
 //refactor with reduce:
-function onlyVowels(array) => {
-    
-}
+// function onlyVowels(array) => {
+//
+// }
 
 
 
