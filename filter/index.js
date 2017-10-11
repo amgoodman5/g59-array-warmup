@@ -10,11 +10,19 @@ function onlyEven(array) {
 // refactor with filter!! OMG!
 
 function onlyOneWord(array) {
-  //where are the snacks?
+return array.filter(function(item){
+  return item.filter(function(word){
+   return  word !== " "
+
+  })
+})
 }
 
 function positiveRowsOnly(array) {
-  //is Dan human?
+return array.filter(function(item){
+  item >= 0;
+  return item;
+})
 }
 
 module.exports = {
