@@ -1,20 +1,14 @@
 function onlyEven(array) {
-  const evens = [];
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 === 0) {
-      evens.push(array[i]);
-    }
-  }
-  return evens;
+  return array.filter( (number) => number % 2 === 0)
 }
 // refactor with filter!! OMG!
 
 function onlyOneWord(array) {
-  //where are the snacks?
+  return array.filter( (word) => word.includes(' ') !== true)
 }
 
 function positiveRowsOnly(array) {
-  //is Dan human?
+  return array.filter( (sub) => sub.some( (i) => i < 0) === false)
 }
 
 module.exports = {
