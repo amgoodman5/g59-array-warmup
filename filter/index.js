@@ -9,12 +9,17 @@ function onlyEven(array) {
 }
 // refactor with filter!! OMG!
 
-function onlyOneWord(array) {
-  //where are the snacks?
-}
+onlyOneWord.filter(function(array) {
+  //where are the snacks? With sam
+  return array;
+});
 
 function positiveRowsOnly(array) {
-  //is Dan human?
+  for (var i = 0; i < array.length; i++) {
+    for (var x = 0; x < array[i].length; x++) {
+      Math.max(array[i][x) ;
+    }
+  }
 }
 
 module.exports = {

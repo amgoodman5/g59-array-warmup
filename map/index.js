@@ -1,8 +1,5 @@
-function multiplyBy10(array) {
-  for (let i = 0; i < array.length; i++) {
-    array[i] = array[i] * 10;
-  }
-  return array;
+multiplyBy10.map(function(array) {
+  return array.map(n => n * 10)
 }
 
 function onlyVowels(array) {
