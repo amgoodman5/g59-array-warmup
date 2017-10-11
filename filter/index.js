@@ -9,6 +9,10 @@ function onlyEven(array) {
 }
 
 // refactor with filter!! OMG!
+function onlyEven(array) {
+    return array.filter(n => n % 2 === 0);
+}
+
 
 function onlyOneWord(array) {
   //where are the snacks?
