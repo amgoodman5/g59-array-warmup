@@ -1,11 +1,14 @@
 function onlyEven(array) {
-  const evens = [];
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 === 0) {
-      evens.push(array[i]);
-    }
-  }
-  return evens;
+  return array.filter((x) =>{
+    return x % 2 === 0
+  })
+  // const evens = [];
+  // for (let i = 0; i < array.length; i++) {
+  //   if (array[i] % 2 === 0) {
+  //     evens.push(array[i]);
+  //   }
+  // }
+  // return evens;
 }
 
 // refactor with filter!! OMG!
