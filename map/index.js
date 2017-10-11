@@ -1,15 +1,11 @@
 function multiplyBy10(array) {
-  for (let i = 0; i < array.length; i++) {
-    array[i] = array[i] * 10;
-  }
-  return array;
+  var b = array.map(x => x * 10);
+  return b;
 }
 
 function onlyVowels(array) {
-  for (var i = 0; i < array.length; i++) {
-    array[i] = array[i].replace(/[^aeiou]*/gi, '');
-  }
-  return array;
+  var b = array.map(x => x.replace(/[^aeiou]*/gi, ''));
+  return b;
 }
 
 function doubleMatrix(array) {
@@ -18,8 +14,7 @@ function doubleMatrix(array) {
       array[i][x] = array[i][x] * 2;
     }
   }
-  return array;
-  // return array.map(nums => nums.map(n => n * 2)); // your code here
+  return array.map(nums => nums.map(n => n * 2)); // your code here
 }
 
 module.exports = {

@@ -1,16 +1,11 @@
 function onlyEven(array) {
-  const evens = [];
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 === 0) {
-      evens.push(array[i]);
-    }
-  }
-  return evens;
+  var a = [4,5,7,8,14,45,76];
+  return a.filter(function(val){return val%2!==0})
 }
 // refactor with filter!! OMG!
 
 function onlyOneWord(array) {
-  //where are the snacks?
+  
 }
 
 function positiveRowsOnly(array) {
