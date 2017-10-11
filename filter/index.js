@@ -7,6 +7,7 @@ function onlyEven(array) {
   }
   return evens;
 }
+
 // refactor with filter!! OMG!
 
 function onlyOneWord(array) {
