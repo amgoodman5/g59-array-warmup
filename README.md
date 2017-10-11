@@ -1,5 +1,8 @@
 # Native Array Methods
 
+[![Build Status](https://travis-ci.org/amgoodman5/g59-array-warmup.svg?branch=g59-warmup-1)](https://travis-ci.org/amgoodman5/g59-array-warmup)
+
+
 Let's practice using the native array methods `some`, `every`, `map`, `filter`, and `reduce`!
 
 ***
