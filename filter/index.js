@@ -19,6 +19,7 @@ function onlyOneWord(array) {
 function positiveRowsOnly(array) {
   return array.filter(function(rows) {
     return rows.every(function(prows) {
+      console.log(prows);
       return prows >= 0;
     });
   });
