@@ -1,6 +1,7 @@
 function onlyEven(array) {
   return array.filter(function(val){return val%2===0})
 }
+
 // refactor with filter!! OMG!
 
 function onlyOneWord(array) {
