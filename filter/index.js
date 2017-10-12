@@ -8,7 +8,7 @@ function onlyOneWord(array) {
 }
 
 function positiveRowsOnly(array) {
-  //is Dan human?
+  return array.map(num => num.filter(n => n > 0)).filter(arr=> arr.length >2);
 }
 
 module.exports = {
