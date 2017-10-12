@@ -2,6 +2,7 @@ function onlyEven(array) {
   return array.filter(n => n % 2 === 0)
 }
 
+
 function onlyOneWord(array) {
   return array.filter(n => !n.includes(" "))
 }
