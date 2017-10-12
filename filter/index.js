@@ -1,21 +1,27 @@
+var _ = require('lodash')
+
+var numbers = [1,2,3,4,5]
+
+var sum = _.sum(numbers)
+console.log(sum);
+
 function onlyEven(array) {
-  const evens = [];
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 === 0) {
-      evens.push(array[i]);
-    }
-  }
-  return evens;
+return  array.filter(x => x%2===0)
 }
 
-// refactor with filter!! OMG!
-
 function onlyOneWord(array) {
-  //where are the snacks?
+  return array.filter(x => x.includes(" ")==false)
 }
 
 function positiveRowsOnly(array) {
-  //is Dan human?
+
+return array.filter
+
+  // array = array.map(x => x.toString())
+  // return array.filter(y => y.includes("-")==false)
+  // var matches = _.where(array);
+  // console.log(matches);
+  // return matches
 }
 
 module.exports = {
