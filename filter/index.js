@@ -17,10 +17,26 @@ function onlyOneWord(array) {
 }
 
 function positiveRowsOnly(array) {
-  return array.filter(function(r) {
-    return r;
+  return array.filter(function(rows) {
+    return rows.every(function(prows) {
+      return prows >= 0;
+    });
   });
 }
+// function positiveRowsOnly(array) {
+//   array.filter(function(rows) {
+//     // console.log(rows);
+//     rows.map(function(posirows) {
+//       console.log(posirows);
+//       //   return pr >= 0;
+//     });
+//   });
+// }
+
+// Example from Aaron:
+// function positiveRowsOnly(array) {
+//   return array.filter(nums => nums.filter(n => n >= 0));
+// }
 
 module.exports = {
   onlyEven: onlyEven,
