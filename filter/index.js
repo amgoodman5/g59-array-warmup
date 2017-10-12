@@ -14,14 +14,7 @@ function onlyOneWord(array) {
 }
 
 function positiveRowsOnly(array) {
-
-return array.filter
-
-  // array = array.map(x => x.toString())
-  // return array.filter(y => y.includes("-")==false)
-  // var matches = _.where(array);
-  // console.log(matches);
-  // return matches
+return array.filter(x => x.some(y => y < 0)===false)
 }
 
 module.exports = {

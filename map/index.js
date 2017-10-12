@@ -7,7 +7,9 @@ return array.map(x => x.replace(/[^aeiou]*/gi, ''))
 }
 
 function doubleMatrix(array) {
+  console.log(array);
       return array.map(x => x.map(y => y * 2));
+
 }
 
 module.exports = {
