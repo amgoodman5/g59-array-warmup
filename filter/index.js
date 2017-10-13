@@ -13,13 +13,20 @@ function onlyEven(array) {
 
 // refactor with filter!! OMG!
 
-function onlyOneWord(array) {
-  //where are the snacks?
-}
 
-function positiveRowsOnly(array) {
-  //is Dan human?
-}
+  function onlyOneWord(array) {
+    //where are the snacks?
+    return array.filter((x) => {
+      return /^\S+$/.test(x)
+  })
+  }
+
+
+  function positiveRowsOnly(array) {
+  //is Dan human?  His physical appearance would lead me to believe he is, but...extraterrestrials?
+    return array.filter((x) =>   x.every(y  =>  y > 0))
+
+  }
 
 module.exports = {
   onlyEven: onlyEven,
