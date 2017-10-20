@@ -1,12 +1,12 @@
 {
   "name": "map-filter-reduce-exercises",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Let's practice using `map`, `filter`, and `reduce`!",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
